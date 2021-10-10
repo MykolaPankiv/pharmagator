@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postrgesql:pharmagator
+    username: postrges
+    password: 1.61803
+  jpa:
+    hibernate:
+      ddl-auto: validate
