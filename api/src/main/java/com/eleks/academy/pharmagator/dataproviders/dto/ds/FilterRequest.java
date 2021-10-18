@@ -1,12 +1,11 @@
 package com.eleks.academy.pharmagator.dataproviders.dto.ds;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
 @Builder
 @NoArgsConstructor
+@AllArgsConstructor
 public class FilterRequest {
 
 	private Long page;
